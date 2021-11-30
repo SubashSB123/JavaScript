@@ -1,0 +1,39 @@
+#div1{
+    text-align: center;
+    font-family:sans-serif;
+}
+input{
+    width: 350px;
+    height: 20px;
+}
+sup{
+    color: orangered;
+}
+select{
+    width: 360px;
+    height: 20px;
+}
+#check{
+    width:10px;
+    height: 20px;
+}
+#rht{
+    position: relative;
+    left: 20cm;
+    bottom: 15cm;
+}
+#left{
+    position: relative;
+    left: 3cm;
+    
+}
+button{
+    position: relative;
+    bottom: 13cm;
+    left: 15cm;
+    background-color: palegreen;
+}
+body{
+    background-color:rgb(241, 250, 223);
+}
+

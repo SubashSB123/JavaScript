@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="Script/script.js"></script>
+    
+</head>
+<body>
+    <form >
+        <div id="div1"><h2>Submit your application</h2>
+            <p>for <b>.NET Developer (Fresher)</b> </p> <br></div>
+        <p><b>Personal Information:</b></p>
+        <div id="left">
+            <div class="hw">
+                <label>Name as per ID Proof <sup>*</sup></label><label for="name" style="color: red;visibility:hidden;" id="lb1">first name is required</label>
+                
+                <br><br>
+            <input type="text" name="name" id="name" placeholder="Enter your Name"><br><br>
+            <label for="mail">Email <sup>*</sup></label><label style="color: red;visibility:hidden;" id="label">mail id required</label><br><br>
+            <input type="text" name="" id="mail" placeholder="Enter your email"><br><br>
+            <label for="add">Current Address <sup>*</sup></label><label style="color: red;visibility:hidden;" id="alabel">assress required</label><br><br>
+            <input type="text" name="" id="add" placeholder="Address line 1"><br><br><br>
+            </div>
+            <div class="lw">
+                <input type="text" name="" id="cty" placeholder="city"><br><br><br>
+            <select name="" id="state">
+                <option value="">select your state</option>
+                <option value="">Tamil Nadu</option>
+                <option value="">Karnataka</option>
+                <option value="">Kerala</option>
+            </select>
+            </div>
+          
+            <br><br>
+            <label for="add">Permenent Address <sup>*</sup></label> <input type="checkbox" id="check" name="check" onclick="chekk()">Same as Current Address<br><br>
+            <input type="text" name="" id="add2" placeholder="Address line 1"><br><br><br>
+            <input type="text" name="" id="cty2" placeholder="city"><br><br><br>
+            <select name="" id="state2">
+                <option value="">select your state</option>
+                <option value="">Tamil Nadu</option>
+                <option value="">Karnataka</option>
+                <option value="">Kerala</option>
+            </select>
+        </div>
+        <div id="rht">
+            <label for="fname">Father's Name<sup>*</sup></label><label style="color: red;visibility:hidden;" id="flabel">father's name required</label><br><br>
+        <input type="text" name="" id="fname" placeholder="Enter your Father's Name"><br><br>
+        <label for="dob">Date Of Birth <sup>*</sup></label><label style="color: red;visibility:hidden;" id="dlabel">DOB required</label><br><br>
+        <input type="text" name="" id="dob" placeholder="Enter your DOB"><br><br>
+        <label for="mobile">Mobile No <sup>*</sup></label><label style="color: red;visibility:hidden;" id="molabel">mobile number required</label><br><br>
+        <input type="text" name="" id="mobile" placeholder="Enter Mobile No"><br><br><br>
+        <input type="text" name="" id="a2" placeholder="Address line 2"><br><br><br>
+        <input type="text" name="" id="z1" placeholder="Zip Code"><br><br><br><br><br><br>
+        <input type="text" name="" id="a22" placeholder="Address line 2"><br><br><br>
+        <input type="text" name="" id="z2" placeholder="Zip Code"><br><br>
+        </div>
+       <button type="button" name="submit" value="submit" onclick="Click()">submit</button>
+    </form>
+    
+   
+
+    
+   
+   
+</body>
+</html>
